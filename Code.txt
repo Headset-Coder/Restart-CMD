@@ -1,0 +1,25 @@
+@echo off
+TITLE Restart And Shutdown CMD Menu
+cls
+echo Enter 1 for restart:
+echo Enter 2 for shutdown
+set /p ans="Enter Number:"
+
+if %ans%==1 (
+goto a
+)
+if %ans%==2 (
+    goto b
+)
+
+:a
+cls
+echo Do you really want to restart?
+pause
+shutdown /r -t 0
+
+:b
+cls
+echo Do you really want to shutdown?
+pause
+shutdown /s -t 0
