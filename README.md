@@ -1,1 +1,4 @@
-Welcome To a thing that i wanted to do on github and uh well yea
+Windows Only!!!!!!!!!!!!
+
+
+Hi, im headset i make kinda of cool things
